@@ -20,6 +20,8 @@ func RootTemplate() []byte {
 {{ .Copyright }}
 {{ if .Legal.Header }}{{ .Legal.Header }}{{ end }}
 */
+
+// Package cmd is for all the Cobra commands
 package cmd
 
 import (
